@@ -1,32 +1,32 @@
 use_frameworks!
 
-target 'WebAPI_iOS' do
+target 'ConfigFile_iOS' do
   platform :ios, '10.0'
 
-  podspec :path => 'WebAPI.podspec'
+  podspec :path => 'ConfigFile.podspec'
 
-  target 'WebAPI_iOSTests' do
+  target 'ConfigFile_iOSTests' do
     inherit! :search_paths
   end
 
 end
 
-target 'WebAPI_tvOS' do
+target 'ConfigFile_tvOS' do
   platform :tvos, '10.10'
 
-  podspec :path => 'WebAPI.podspec'
+  podspec :path => 'ConfigFile.podspec'
 
-  target 'WebAPI_tvOSTests' do
+  target 'ConfigFile_tvOSTests' do
     inherit! :search_paths
   end
 end
 
-# target 'WebAPI_macOS' do
+# target 'ConfigFile_macOS' do
 #   platform :osx, '10.10'
 #
-#   podspec :path => 'WebAPI.podspec'
+#   podspec :path => 'ConfigFile.podspec'
 #
-#   target 'WebAPI_macOSTests' do
+#   target 'ConfigFile_macOSTests' do
 #     inherit! :search_paths
 #   end
 # end
