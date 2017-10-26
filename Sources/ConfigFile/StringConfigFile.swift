@@ -28,7 +28,7 @@ open class StringConfigFile: ConfigFile {
     items.removeAll()
   }
 
-  public func exist() -> Bool {
+  public func exists() -> Bool {
     return File.exists(atPath: fileName)
   }
 

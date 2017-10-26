@@ -13,5 +13,5 @@ protocol ConfigFile {
 
   func save() throws
 
-  func exist() -> Bool
+  func exists() -> Bool
 }
