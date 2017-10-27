@@ -21,15 +21,15 @@ target 'ConfigFile_tvOS' do
   end
 end
 
-# target 'ConfigFile_macOS' do
-#   platform :osx, '10.10'
-#
-#   podspec :path => 'ConfigFile.podspec'
-#
-#   target 'ConfigFile_macOSTests' do
-#     inherit! :search_paths
-#   end
-# end
+target 'ConfigFile_macOS' do
+  platform :osx, '10.10'
+
+  podspec :path => 'ConfigFile.podspec'
+
+  target 'ConfigFile_macOSTests' do
+    inherit! :search_paths
+  end
+end
 
 # post_install do |installer|
 #   installer.pods_project.targets.each do |target|
