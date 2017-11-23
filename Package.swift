@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "ConfigFile", targets: ["ConfigFile"])
   ],
   dependencies: [
-    .package(url: "https://github.com/JohnSundell/Files", from: "1.9.0")
+    .package(url: "https://github.com/JohnSundell/Files", from: "2.0.1")
   ],
   targets: [
     .target(

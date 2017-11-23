@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ConfigFile"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "Library for representing config files"
   s.description  = "Library for representing config files."
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "Sources/**/*.swift"
 
-  s.dependency 'Files', '~> 1.9.0'
+  s.dependency 'Files', '~> 2.0.0'
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 end
